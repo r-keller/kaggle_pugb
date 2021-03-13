@@ -17,7 +17,7 @@ Below we have a table of the raw data acquired. A string is simply a sequence of
 There are no missing entries; instead, there are duplicate entries of players, each anonymized, so that some teams are erroneously shown to be larger than 4. Duplication occurred when a player disconnected (d/ced) or otherwise left the battle and rejoined, so in the aggregate for each match and team the data should be sound.
 
  name |     type
- ---- | ----
+ :----: | :----:
  Id |     string
  groupId |     string
  matchId |     string
