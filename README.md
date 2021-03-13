@@ -16,37 +16,37 @@ Below we have a table of the raw data acquired. A string is simply a sequence of
 
 There are no missing entries; instead, there are duplicate entries of players, each anonymized, so that some teams are erroneously shown to be larger than 4. Duplication occurred when a player disconnected (d/ced) or otherwise left the battle and rejoined, so in the aggregate for each match and team the data should be sound.
 
-                name |     type
-                ---- | ----
-                  Id |     string
-             groupId |     string
-             matchId |     string
-             assists |      int64
-              boosts |      int64
-         damageDealt |    float64
-               DBNOs |      int64
-       headshotKills |      int64
-               heals |      int64
-           killPlace |      int64
-          killPoints |      int64
-               kills |      int64
-         killStreaks |      int64
-         longestKill |    float64
-       matchDuration |      int64
-           matchType |     object
-            maxPlace |      int64
-           numGroups |      int64
-          rankPoints |      int64
-             revives |      int64
-        rideDistance |    float64
-           roadKills |      int64
-        swimDistance |    float64
-           teamKills |      int64
-     vehicleDestroys |      int64
-        walkDistance |    float64
-     weaponsAcquired |      int64
-           winPoints |      int64
-        winPlacePerc |    float64
+ name |     type
+ ---- | ----
+ Id |     string
+ groupId |     string
+ matchId |     string
+assists |      int64
+boosts |      int64
+ damageDealt |    float64
+DBNOs |      int64
+headshotKills |      int64
+heals |      int64
+killPlace |      int64
+killPoints |      int64
+ kills |      int64
+killStreaks |      int64
+longestKill |    float64
+matchDuration |      int64
+ matchType |     string
+ maxPlace |      int64
+ numGroups |      int64
+ rankPoints |      int64
+revives |      int64
+  rideDistance |    float64
+roadKills |      int64
+swimDistance |    float64
+ teamKills |      int64
+vehicleDestroys |      int64
+walkDistance |    float64
+weaponsAcquired |      int64
+ winPoints |      int64
+  winPlacePerc |    float64
 
 ## Feature Engineering
 
